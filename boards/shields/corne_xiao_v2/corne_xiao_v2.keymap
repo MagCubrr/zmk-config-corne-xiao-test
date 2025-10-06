@@ -170,7 +170,7 @@
             //╭──────────┬──────────┬──────────┬───────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
             //│          │   F1     │   F2     │   F3      │   F4     │   F5     │   │   F6     │   F7     │   F8     │   F9     │   F10    │ NEXTSONG │  
             //├──────────┼──────────┼──────────┼───────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-            //│ (empty)  │   F11    │   F12    │           │          │          │   │          │DEC BRIGHT│INC BRIGHT│ WINDOWS  │TOGGLEOUT │PAUSEMUSIC│
+            //│ (empty)  │   F11    │   F12    │           │          │          │   │          │DEC BRIGHT│INC BRIGHT│ WINDOWS  │          │PAUSEMUSIC│
             //├──────────┼──────────┼──────────┼───────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
             //│ (empty)  │Caps Word │          │           │          │          │   │          │ VOL DOWN │  VOL UP  │ VOL MUTE │ZMK STUDIO│ PREVSONG │
             //╰──────────┴──────────┴──────────┴───────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────┴──────────┴──────────┴──────────╯
@@ -179,7 +179,7 @@
 
             bindings = <
 &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                        &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp C_NEXT
-&trans &kp F11 &kp F12 &trans &trans &trans                      &trans &kp C_BRI_DEC &kp C_BRI_UP &tog WIN &out OUT_TOG &kp C_PP
+&trans &kp F11 &kp F12 &trans &trans &trans                      &trans &kp C_BRI_DEC &kp C_BRI_UP &tog WIN &trans &kp C_PP
 &trans &caps_word &trans &trans &trans &trans                    &trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &studio_unlock &kp C_PREV
                         &tog WIN &trans &trans                   &trans &trans &trans
             >;
